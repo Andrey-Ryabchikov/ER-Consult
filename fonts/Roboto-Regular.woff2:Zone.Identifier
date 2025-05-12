@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/3a76ba16-95cf-4471-a452-815e0f12fc55/Roboto-Regular.woff2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20250512%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20250512T154631Z&X-Amz-Expires=86400&X-Amz-Signature=dd75bb80db67a1af92738dfe360db605a4cc3b1c7f1fbca4479d9d92f32d2ab7&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Roboto-Regular.woff2%22&response-content-type=font%2Fwoff2&x-id=GetObject

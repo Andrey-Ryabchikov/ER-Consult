@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Variable.woff2') format('woff2-variations');
+    src: url('../fonts/Roboto-Variable.woff2') format('woff2') tech('variations');
+    font-weight: 300 1000;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.35;
+    color: #0D0D0D;
+    background-color: #fffffc;
+
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container-about{
+    max-width: 1840px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container-products{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.menu__list{
+    display: flex;
+    gap: 0 30px;
+}
+
+.menu__link{
+    text-transform: uppercase;
+}
+
+.header__contacts{
+    text-transform: uppercase;
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: #0D0D0D;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.about{
+    margin-bottom: 180px;
+}
+
+.about__top{
+    text-align: center;
+    color: #fffffc;
+    background-image: url(../images/about.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 748px;
+}
+
+.about__title{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 1.4;
+    padding-top: 60px;
+
+}
+
+.about__text{
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.products{
+    margin-bottom: 180px;
+}
+
+.products__title{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.4;
+    padding-top: 40px;
+}
+
