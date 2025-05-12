@@ -61,9 +61,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    max-width: 1440px;
     background: #FFF;
-    padding: 10px;
-
+    
 }
 
 
@@ -145,4 +145,37 @@ body{
     background: #fffffc;
     border: solid;
     margin: 10px;
+  }
+
+footer{
+    background-color: #0D0D0D;
+    padding: 100px 0;
+    color: #fffffc;
+  }
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+  }
+
+.footer__elemen-tittle{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer__item + .footer__item{
+    padding-top: 15px;
+
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top:1px solid #fffffc;
+    font-size: 14px;
   }
