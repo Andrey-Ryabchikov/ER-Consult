@@ -195,7 +195,7 @@ footer{
 .services {
   padding: 40px 20px;
   text-align: center;
-  background-color: #fffffc; /* Фон, как на сайте ER-Consult */
+  background-color: #fffffc; 
   min-height: 748px;
 }
 
@@ -214,15 +214,15 @@ footer{
 }
 
 .service-card {
-  display: flex; /* Делаем карточку flex-контейнером */
-  flex-direction: column; /* Располагаем элементы в столбец */
-  justify-content: space-between; /* Распределяем пространство, кнопка уходит вниз */
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  min-height: 250px; /* Минимальная высота для одинаковой высоты карточек */
+  min-height: 250px; 
 }
 
 .service-card h3 {
@@ -235,11 +235,11 @@ footer{
   font-size: 1rem;
   color: #666;
   margin-bottom: 15px;
-  flex-grow: 1; /* Текст растягивается, чтобы заполнить пространство */
+  flex-grow: 1; 
 }
 
 .service-card .btn {
-  margin-top: auto; /* Прижимаем кнопку к нижнему краю */
+  margin-top: auto; 
   padding: 10px 20px;
   background-color: #0D0D0D;
   color: #fff;
@@ -258,41 +258,48 @@ footer{
   background-color: #0056b3;
 }
 
-/* Модальное окно */
-.modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.modal-content {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 500px;
-  width: 90%;
-  position: relative;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #333;
-}
 
 @media (max-width: 1400px) {
     .container-about{
         padding: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer__top{
+        flex-wrap: wrap;
+    }
+    .footer__element{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .footer__bottom{
+        display: block;
+    }
+    .footer__bottom__item{
+        margin-bottom: 10px;
+    }
+    .header__inner{
+        flex-wrap: wrap;
+        gap: 20px 65px;
+    }   
+    .menu{
+        order: 0;
+    } 
+    .header__contacts{
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .about__top {
+    min-height: 450px;
+}
+    .about__title {
+    font-size: 60px;
+}
+    .about__text{
+        font-size: 18px;
     }
 }
 
@@ -340,40 +347,5 @@ footer{
   } 
     
 }
-@media (max-width: 800px) {
-    .about__top {
-    min-height: 450px;
-}
-    .about__title {
-    font-size: 60px;
-}
-    .about__text{
-        font-size: 18px;
-    }
-}
 
-@media (max-width: 560px) {
-    .footer__top{
-        flex-wrap: wrap;
-    }
-    .footer__element{
-        width: 100%;
-        padding-bottom: 10px;
-    }
-    .footer__bottom{
-        display: block;
-    }
-    .footer__bottom__item{
-        margin-bottom: 10px;
-    }
-    .header__inner{
-        flex-wrap: wrap;
-        gap: 20px 65px;
-    }   
-    .menu{
-        order: 0;
-    } 
-    .header__contacts{
-        margin-left: auto;
-    }
-}
+
